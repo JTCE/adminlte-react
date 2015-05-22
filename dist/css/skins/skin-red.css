@@ -58,15 +58,15 @@
 .skin-red .wrapper,
 .skin-red .main-sidebar,
 .skin-red .left-side {
-  background-color: #222d32;
+  background-color: #272f2f;
 }
 .skin-red .user-panel > .info,
 .skin-red .user-panel > .info > a {
   color: #fff;
 }
 .skin-red .sidebar-menu > li.header {
-  color: #4b646f;
-  background: #1a2226;
+  color: #556767;
+  background: #1e2424;
 }
 .skin-red .sidebar-menu > li > a {
   border-left: 3px solid transparent;
@@ -74,21 +74,21 @@
 .skin-red .sidebar-menu > li:hover > a,
 .skin-red .sidebar-menu > li.active > a {
   color: #ffffff;
-  background: #1e282c;
+  background: #222929;
   border-left-color: #dd4b39;
 }
 .skin-red .sidebar-menu > li > .treeview-menu {
   margin: 0 1px;
-  background: #2c3b41;
+  background: #333d3d;
 }
 .skin-red .sidebar a {
-  color: #b8c7ce;
+  color: #bfc9c9;
 }
 .skin-red .sidebar a:hover {
   text-decoration: none;
 }
 .skin-red .treeview-menu > li > a {
-  color: #8aa4af;
+  color: #95a7a7;
 }
 .skin-red .treeview-menu > li.active > a,
 .skin-red .treeview-menu > li > a:hover {
@@ -96,13 +96,13 @@
 }
 .skin-red .sidebar-form {
   border-radius: 3px;
-  border: 1px solid #374850;
+  border: 1px solid #3e4b4b;
   margin: 10px 10px;
 }
 .skin-red .sidebar-form input[type="text"],
 .skin-red .sidebar-form .btn {
   box-shadow: none;
-  background-color: #374850;
+  background-color: #3e4b4b;
   border: 1px solid transparent;
   height: 35px;
   -webkit-transition: all 0.3s ease-in-out;
@@ -131,3 +131,4 @@
   border-bottom-right-radius: 2px !important;
   border-bottom-left-radius: 0 !important;
 }
+/*# sourceMappingURL=AdminLTE.css.map */

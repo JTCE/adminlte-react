@@ -1,0 +1,69 @@
+/*
+ * Skin: Custom
+ * ----------
+ */
+@import "../../bootstrap-less/mixins.less";
+@import "../../bootstrap-less/variables.less";
+@import "../variables.less";
+@import "../mixins.less";
+
+@logo-bg: #272F2F;
+@navbar-bg: #fff;
+@navbar-color: #999;
+
+.skin-custom {
+  //Navbar
+  .main-header {
+    .navbar {
+      .navbar-variant(@navbar-bg; @navbar-color);
+      .sidebar-toggle {
+        color: @navbar-color;
+        padding: 5px 15px;
+        font-size: 24px;
+        &:hover {
+          color: darken(@navbar-color, 5%);
+          background-color: @navbar-bg;
+        }
+      }
+      @media (max-width: @screen-header-collapse) {
+        .dropdown-menu {
+          li {
+            &.divider {
+              background-color: rgba(255, 255, 255, 0.1);
+            }
+            a {
+              color: #fff;
+              &:hover {
+                background: darken(@light-blue, 5%);
+              }
+            }
+          }
+        }
+      }
+    }
+    //Logo
+    .logo {
+      .logo-variant(@logo-bg);
+    }
+
+    li.user-header {
+      background-color: @light-blue;
+    }
+  }
+
+  //Content Header
+  .content-header {
+    background: transparent;
+  }
+
+  //Create the sidebar skin
+  .skin-dark-sidebar(@light-blue);
+
+  .sidebar-menu > li {
+    font-size: 16px;
+  }
+}
+
+.skin-custom.layout-top-nav .main-header > .logo {
+  .logo-variant(@light-blue);
+}

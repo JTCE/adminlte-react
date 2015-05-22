@@ -14,10 +14,14 @@ module.exports = function (grunt) {
       development: {
         options: {
           // Whether to compress or not
-          compress: false
+          compress: false,
+          sourceMap: true,
+          sourceMapFilename: 'dist/css/AdminLTE.css.map',
+          sourceMapBasepath: 'dist/css',
+          sourceMapRootpath: ''
         },
         files: {
-          // compilation.css  :  source.less          
+          // compilation.css  :  source.less
           "dist/css/AdminLTE.css": "build/less/AdminLTE.less",
           //Non minified skin files
           "dist/css/skins/skin-blue.css": "build/less/skins/skin-blue.less",
@@ -32,13 +36,14 @@ module.exports = function (grunt) {
           "dist/css/skins/skin-green-light.css": "build/less/skins/skin-green-light.less",
           "dist/css/skins/skin-red-light.css": "build/less/skins/skin-red-light.less",
           "dist/css/skins/skin-purple-light.css": "build/less/skins/skin-purple-light.less",
+          "dist/css/skins/skin-custom.css": "build/less/skins/skin-custom.less",
           "dist/css/skins/_all-skins.css": "build/less/skins/_all-skins.less"
         }
       },
       // Production compresses version
       production: {
         options: {
-          // Whether to compress or not          
+          // Whether to compress or not
           compress: true
         },
         files: {
@@ -57,6 +62,7 @@ module.exports = function (grunt) {
           "dist/css/skins/skin-green-light.min.css": "build/less/skins/skin-green-light.less",
           "dist/css/skins/skin-red-light.min.css": "build/less/skins/skin-red-light.less",
           "dist/css/skins/skin-purple-light.min.css": "build/less/skins/skin-purple-light.less",
+          "dist/css/skins/skin-custom.min.css": "build/less/skins/skin-custom.less",
           "dist/css/skins/_all-skins.min.css": "build/less/skins/_all-skins.less"
         }
       }
@@ -76,8 +82,8 @@ module.exports = function (grunt) {
     // Build the documentation files
     includes: {
       build: {
-        src: ['*.html'], // Source files 
-        dest: 'documentation/', // Destination directory 
+        src: ['*.html'], // Source files
+        dest: 'documentation/', // Destination directory
         flatten: true,
         cwd: 'documentation/build',
         options: {

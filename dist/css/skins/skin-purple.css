@@ -58,15 +58,15 @@
 .skin-purple .wrapper,
 .skin-purple .main-sidebar,
 .skin-purple .left-side {
-  background-color: #222d32;
+  background-color: #272f2f;
 }
 .skin-purple .user-panel > .info,
 .skin-purple .user-panel > .info > a {
   color: #fff;
 }
 .skin-purple .sidebar-menu > li.header {
-  color: #4b646f;
-  background: #1a2226;
+  color: #556767;
+  background: #1e2424;
 }
 .skin-purple .sidebar-menu > li > a {
   border-left: 3px solid transparent;
@@ -74,21 +74,21 @@
 .skin-purple .sidebar-menu > li:hover > a,
 .skin-purple .sidebar-menu > li.active > a {
   color: #ffffff;
-  background: #1e282c;
+  background: #222929;
   border-left-color: #605ca8;
 }
 .skin-purple .sidebar-menu > li > .treeview-menu {
   margin: 0 1px;
-  background: #2c3b41;
+  background: #333d3d;
 }
 .skin-purple .sidebar a {
-  color: #b8c7ce;
+  color: #bfc9c9;
 }
 .skin-purple .sidebar a:hover {
   text-decoration: none;
 }
 .skin-purple .treeview-menu > li > a {
-  color: #8aa4af;
+  color: #95a7a7;
 }
 .skin-purple .treeview-menu > li.active > a,
 .skin-purple .treeview-menu > li > a:hover {
@@ -96,13 +96,13 @@
 }
 .skin-purple .sidebar-form {
   border-radius: 3px;
-  border: 1px solid #374850;
+  border: 1px solid #3e4b4b;
   margin: 10px 10px;
 }
 .skin-purple .sidebar-form input[type="text"],
 .skin-purple .sidebar-form .btn {
   box-shadow: none;
-  background-color: #374850;
+  background-color: #3e4b4b;
   border: 1px solid transparent;
   height: 35px;
   -webkit-transition: all 0.3s ease-in-out;
@@ -131,3 +131,4 @@
   border-bottom-right-radius: 2px !important;
   border-bottom-left-radius: 0 !important;
 }
+/*# sourceMappingURL=AdminLTE.css.map */
