@@ -16,13 +16,14 @@ module.exports = function (grunt) {
           // Whether to compress or not
           compress: false,
           sourceMap: true,
-          sourceMapFilename: 'dist/css/AdminLTE.css.map',
+          sourceMapFilename: 'dist/css/adminlte-react.css.map',
           sourceMapBasepath: 'dist/css',
           sourceMapRootpath: ''
         },
         files: {
           // compilation.css  :  source.less
           "dist/css/AdminLTE.css": "build/less/AdminLTE.less",
+          "dist/css/adminlte-react.css": "build/less/AdminLTE.less",
           //Non minified skin files
           "dist/css/skins/skin-blue.css": "build/less/skins/skin-blue.less",
           "dist/css/skins/skin-black.css": "build/less/skins/skin-black.less",
@@ -49,6 +50,7 @@ module.exports = function (grunt) {
         files: {
           // compilation.css  :  source.less
           "dist/css/AdminLTE.min.css": "build/less/AdminLTE.less",
+          "dist/css/adminlte-react.min.css": "build/less/AdminLTE.less",
           // Skins minified
           "dist/css/skins/skin-blue.min.css": "build/less/skins/skin-blue.less",
           "dist/css/skins/skin-black.min.css": "build/less/skins/skin-black.less",
