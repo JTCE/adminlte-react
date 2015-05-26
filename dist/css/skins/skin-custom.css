@@ -134,9 +134,6 @@
   border-bottom-right-radius: 2px !important;
   border-bottom-left-radius: 0 !important;
 }
-.skin-custom .sidebar-menu > li {
-  font-size: 16px;
-}
 .skin-custom.layout-top-nav .main-header > .logo {
   background-color: #3c8dbc;
   color: #ffffff;
